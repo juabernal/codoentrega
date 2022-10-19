@@ -144,6 +144,7 @@ header .textoprincipal{
 input{
     background-color: #fbfbfb; 
     width: 408px; 
+    min-width: 300px;
     height: 40px; 
     border-radius: 5px;  
     border-style: solid; 
@@ -158,6 +159,7 @@ input{
   textarea{
     background-color: #fbfbfb; 
     width: 405px; 
+    min-width: 300px;
     height: 150px; 
     border-radius: 5px;  
     border-style: solid; 
@@ -190,7 +192,7 @@ button p{
   
 .centrarformulario {
     text-align: center;
-    min-width: 300px;
+    
 }
   
  .mensaje {
