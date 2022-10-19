@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="img/galaxia.png" type="image/x-icon">
+    <link rel="stylesheet" href="./contactos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <a name="arriba"></a>
+    <header>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="sistemasolar.html">Sistema Solar</a>
+            <a href="bigbang.html">Big Bang</a>
+            <a href="Constelaciones.html">Constelaciones</a>
+            <a href="Estrellas.html">Estrellas</a>
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+        <section class="textoprincipal">
+            <h1>Contactános</h1>
+        </section>
+        <div class="ola" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M-0.27,36.03 C240.12,282.73 314.61,-97.19 501.41,53.80 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: rgb(255, 255, 255);">
+                </path>
+            </svg>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="contenedor portada">
+            <h1 class="tituloform">Escribínos para más información</h1>
+            <div class="contenedor-portada">
+
+                <div class="contenedor-texto">
+                    <br>
+                    <br>
+
+                    <form name="fvalida" method="post" id="formulario" onsubmit="return validardatos();">
+
+                        <fieldset>
+                            <legend> Rellená con tus datos </legend>
+                            <br>
+                            <div class="centrarformulario">
+                                <!-- para la validación se sacó required="obligatorio" en los obligatorios -->
+                                <p>
+                                    <label for="">Nombre <span>*</span></label><br>
+                                    <input type="text" id="nombre" name="nombre" size="30" maxlength="25"
+                                        required="obligatorio" placeholder="Escribe tu Nombre">
+                                </p>
+                                <p>
+                                    <label for="email">Email <span>*</span></label> <br>
+                                    <input type="email" id="email" name="email" required="obligatorio"
+                                        placeholder="Escribe tu Email" size="30">
+                                </p>
+
+                                <p>
+                                    <label for="telefono">Teléfono</label><br>
+                                    <input type="telefono" id="telefono" name="telefono"
+                                        placeholder="Escribe tu teléfono" size="30">
+                                </p>
+
+                                <p>
+                                    <label for="">Asunto <span>*</span></label><br>
+                                    <input type="text" id="asunto" name="asunto" size="30" maxlength="25"
+                                        required="obligatorio" placeholder="Escribe el Asunto">
+                                </p>
+
+                                <p>
+                                    <label for="">Mensaje <span>*</span> </label> <br>
+                                    <input class="mensaje" id="mensaje" required="obligatorio" name="mensaje"
+                                        placeholder="Deja aquí tu mensaje...">
+                                </p>
+                                <br>
+                                <button type="submit" onclick="validarEnviar()">
+                                    <p>Enviar</p>
+                                </button>
+
+
+                                <br>
+                                <br>
+                                <p>
+                                    <span> (*) </span> Los campos son obligatorios.
+                                </p>
+                                <br>
+
+                            </div>
+
+                        </fieldset>
+
+                    </form>
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <script src="Js/validacionform.js"></script>
+
+
+        <section class="navegador">
+            <div class="contenedor">
+                <h2 class="titulo">¿Sobre qué quieres saber?</h2>
+                <div class="galeria">
+                    <div class="imagen-galeria">
+                        <img src="img/bigbangboton.jpg" alt="">
+                        <div class="flotador-galeria">
+                            <img src="img/icono.png" alt="">
+                            <a href="bigbang.html">
+                                <p>Big Bang</p></a>
+                            
+                        </div>
+                    </div>
+                    <div class="imagen-galeria">
+                        <img src="img/estrellas.jpg" alt="">
+                        <div class="flotador-galeria">
+                            <img src="img/icono.png" alt="">
+                            <a href="Estrellas.html">
+                                <p>Estrellas</p></a>
+                        </div>
+                    </div>
+                    <div class="imagen-galeria">
+                        <img src="img/planetas.jpg" alt="">
+                        <div class="flotador-galeria">
+                            <img src="img/icono.png" alt="">
+                            <a href="sistemasolar.html">
+                                <p>Sistema Solar</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen-galeria">
+                        <img src="img/constelaciones.jpg" alt="">
+                        <div class="flotador-galeria">
+                            <img src="img/icono.png" alt="">
+                            <a href="Constelaciones.html">
+                                <p>Constelaciones</p></a>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <br>
+                        <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                            <a class="a2a_button_facebook"></a>
+                            <a class="a2a_button_twitter"></a>
+                            <a class="a2a_button_whatsapp"></a>
+                            <a class="a2a_button_telegram"></a>
+                            <a class="a2a_button_pinterest"></a>
+                            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        </div>
+                        <script async src="https://static.addtoany.com/menu/page.js"></script>
+                        
+                        
+                        <br>
+                    </div>
+                
+                </div>
+                <div class="centrarformulario">
+                    <a href="#arriba">Ir Arriba</a>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+<div>
+    
+</div>
+</body>
+
+</html>

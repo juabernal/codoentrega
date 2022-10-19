@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: "open sans";
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.titulo{
+    color:#642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.tituloform{
+    color:#642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #1a2a6c;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(41, 98%, 58%, 0.5), hsla(0, 70%, 41%, 0.5), hsla(228, 61%, 26%, 0.5));  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(41, 98%, 58%, 0.5), hsla(0, 70%, 41%, 0.5), hsla(228, 61%, 26%, 0.5)), url(./img/contactos.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+nav{
+    text-align: left;
+    padding: 20px 0 0 20px;
+}
+
+nav > a{
+    color:azure;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+
+}
+
+header .textoprincipal{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textoprincipal h1{
+    font-size: 50px;
+    color: white;
+}
+
+.ola{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+
+}
+
+.navegador{
+    background: #f2f2f2;
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-galeria{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imagen-galeria > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.flotador-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(270, 90%, 30%, 0.5);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flotador-galeria img{
+    width: 50px;
+}
+
+.flotador-galeria p{
+    color: white;
+}
+
+.imagen-galeria:hover .flotador-galeria{
+    transform: scale(1);
+}
+
+/* Se Agrega lo referido al formulario */
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #7e5b11;
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 10px; 
+    
+  }
+
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #7e5b11; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 10px; 
+    padding-top: 10px; 
+  }
+/* Botón Enviar*/ 
+  button{
+    height: 45px; 
+    padding-left: 20px;
+    padding-right: 30px;   
+    text-transform:uppercase;
+    background-color:#bb8208;
+    border-color: #ffffff;
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 100px;   
+    cursor: pointer;
+    
+  }
+  /* Letra del Botón Enviar*/ 
+button p{
+    color: #ffffff; 
+  }
+
+  
+.centrarformulario {
+    text-align: center;
+}
+  
+ .mensaje {
+    height: 100px;
+ } 
+  
+  
+@media screen and (max-width:992px){
+    header{
+        background-position: center;
+
+    }
+
+    .contenedor-portada{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+    .imagen-principal{
+        width: 85%;
+    }
+
+
+    .contenedor-portada .contenedor-texto{
+        width: 85%;
+    }
+  
+}
+
+@media screen and (max-width:576px){
+    nav{
+        text-align: center;
+        
+    }
+
+    nav > a{
+        margin-right: 8px;
+    }
+
+    .textoprincipal h1{
+        font-size: 30px;
+    }
+
+    .textoprincipal h2{
+        font-size: 20px;
+    }
+    
+    .imagen-principal{
+        margin-bottom: 55px;
+        width: 90%;
+    }
+
+    .contenedor-portada .contenedor-texto{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:360px){
+    nav{
+        text-align: center;
+        
+    }
+
+    nav > a{
+        margin-right: 8px;
+    }
+
+    .textoprincipal h1{
+        font-size: 30px;
+    }
+
+    .textoprincipal h2{
+        font-size: 20px;
+    }
+    
+    .imagen-principal{
+        margin-bottom: 55px;
+        width: 90%;
+    }
+
+    .contenedor-portada .contenedor-texto{
+        width: 90%;
+    }
+}
