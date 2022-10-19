@@ -251,7 +251,7 @@ button p{
 
 }
 
-@media screen and (max-width:380px){
+@media screen and (max-width:250px){
     nav{
         text-align: center;
         
