@@ -297,7 +297,7 @@ header .textoprincipal{
    
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:310px){
     nav{
         text-align: center;
         
