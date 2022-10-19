@@ -190,6 +190,7 @@ button p{
   
 .centrarformulario {
     text-align: center;
+    min-width: 300px;
 }
   
  .mensaje {
