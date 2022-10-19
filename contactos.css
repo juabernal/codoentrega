@@ -212,7 +212,9 @@ button p{
         justify-content: center;
     }
 
-    
+    .recuadroformulario{
+        width:100%;
+    }
 
     .imagen-principal{
         width: 85%;
@@ -247,6 +249,9 @@ button p{
         margin-bottom: 55px;
         width: 90%;
     }
+    .recuadroformulario{
+        width:90%;
+    }
 
     .contenedor-portada .contenedor-texto{
         width: 90%;
@@ -259,7 +264,9 @@ button p{
         text-align: center;
         
     }
-
+    .recuadroformulario{
+        width:60%;
+    }
     nav > a{
         margin-right: 8px;
     }
