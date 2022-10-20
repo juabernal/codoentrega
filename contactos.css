@@ -232,20 +232,20 @@ button p{
     }
  
     .textarea{
-        width:95%;
+        width:90%;
     }
     .input {
         width: 90%;
     }
 
     .mensaje{
-        width: 90%;
+        width: 80%;
     }
     .formadaptado{
         width: 100%;
      }
      .inputs{
-        width: 90%;
+        width: 80%;
      }
 }
 
@@ -283,10 +283,10 @@ button p{
     }
 
 .inputs{
-   width: 90%;
+   width: 80%;
 }
     .mensaje{
-        width: 90%;
+        width: 80%;
     }
     .formadaptado{
         width: 100%;
@@ -317,19 +317,19 @@ button p{
     }
 
 .inputs{
-   width: 90%;
+   width: 80%;
 }
     .contenedor-portada .contenedor-texto{
         width: 90%;
     }
     .textarea{
-        width:95%;
+        width:90%;
     }
     .input {
         width: 90%;
     }
     .mensaje{
-        width: 90%;
+        width: 80%;
     }
     .formadaptado{
         width: 100%;
