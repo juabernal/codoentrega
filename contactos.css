@@ -223,6 +223,17 @@ button p{
     .contenedor-portada .contenedor-texto{
         width: 85%;
     }
+ 
+    .textarea{
+        width:95%;
+    }
+    .input {
+        width: 90%;
+    }
+
+    .mensaje{
+        width: 90%;
+    }
   
 }
 
@@ -252,7 +263,16 @@ button p{
     .contenedor-portada .contenedor-texto{
         width: 90%;
     }
+    .textarea{
+        width:95%;
+    }
+    .input {
+        width: 90%;
+    }
 
+    .mensaje{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:310px){
@@ -279,6 +299,15 @@ button p{
     }
 
     .contenedor-portada .contenedor-texto{
+        width: 90%;
+    }
+    .textarea{
+        width:95%;
+    }
+    .input {
+        width: 90%;
+    }
+    .mensaje{
         width: 90%;
     }
 }
