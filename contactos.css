@@ -203,6 +203,10 @@ button p{
  .formadaptado{
     width: 100%;
  }
+
+ .inputs{
+    width: 100%;
+ }
   
 @media screen and (max-width:992px){
     header{
@@ -240,6 +244,9 @@ button p{
     .formadaptado{
         width: 100%;
      }
+     .inputs{
+        width: 90%;
+     }
 }
 
 @media screen and (max-width:576px){
@@ -275,6 +282,9 @@ button p{
         width: 90%;
     }
 
+.inputs{
+   width: 90%;
+}
     .mensaje{
         width: 90%;
     }
@@ -306,6 +316,9 @@ button p{
         width: 90%;
     }
 
+.inputs{
+   width: 90%;
+}
     .contenedor-portada .contenedor-texto{
         width: 90%;
     }
